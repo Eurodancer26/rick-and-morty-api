@@ -1,0 +1,11 @@
+# Зависимости (на сервере их установим через npm install)
+node_modules/
+
+.env
+.env.local
+
+*.log
+npm-debug.log*
+
+dist/
+build/

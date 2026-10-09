@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Rick Sanchez",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 2,
+    "name": "Morty Smith",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 3,
+    "name": "Summer Smith",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 4,
+    "name": "Фейковый Рик из Чертаново",
+    "status": "unknown",
+    "species": "Человек",
+    "image": "https://meduza.io/image/attachments/images/002/914/125/large/_MYObopkNjxJbS02ekFnmA.jpg",
+    "location": "Земля C-137",
+    "episode": "Тест"
+  },
+  {
+    "id": 5,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Инопланетянин",
+    "location": "Космическая система \"КУКУЕВО\"",
+    "episode": "Тест эпизод",
+    "image": "https://i.redd.it/rick-and-morty-x-ai-made-by-ai-lab-v0-aual73r0uxda1.png?width=1024&format=png&auto=webp&s=09f092b93395a2e3347dae9e1f41084651c93ede"
+  },
+  {
+    "id": 6,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Человек",
+    "location": "Земля C-137",
+    "episode": "Тест AI",
+    "image": "https://imagedelivery.net/F5KOmplEz0rStV2qDKhYag/ff2519d4-434b-4c80-4a9c-a774cea61000/tn"
+  }
+]
