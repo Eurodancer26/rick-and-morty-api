@@ -3,10 +3,11 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs').promises;
 const path = require('path');
+const { queryObjects } = require('v8');
 
 const app = express();
 
-const PORT = 4000;
+const PORT = 3000;
 const CHARACTERS_PATH = path.join(__dirname, 'db/characters_db.json');
 const LOCATIONS_DB = path.join(__dirname, 'db/locations_db.json');
 
@@ -39,8 +40,29 @@ app.get('/', (req, res) => {
 
 app.get('/api/characters', async (req, res) => {
     const characters = await readData(CHARACTERS_PATH);
-    res.json({ results: characters });
-})
+
+    const page = parseInt(req.query.page) || 1;
+    const limit = 20;
+    const offset = (page - 1) * limit;
+    
+    // Вычисляем общее количество страниц
+    const totalPages = Math.ceil(characters.length / limit);
+
+    res.json({
+        "info": {
+            "count": characters.length, // Полезно знать общее число элементов
+            "pages": totalPages,
+            "limit": limit,
+            "current": page,
+            // Если текущая страница последняя или их вообще нет, next будет null
+            "next": page >= totalPages ? null : `/api/characters?page=${page + 1}`,
+            "prev": page <= 1 ? null : `/api/characters?page=${page - 1}`,
+        },
+        // Использовать offset + limit для корректного среза второй страницы
+        "results": characters.slice(offset, offset + limit)
+    });
+});
+
 
 app.post('/api/characters', async (req, res) => {
     try {

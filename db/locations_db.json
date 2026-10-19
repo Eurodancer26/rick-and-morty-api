@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Измерение Прайм",
-        "image": "https://static.wikia.nocookie.net/rickandmorty/images/1/16/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_001.jpg/revision/latest/scale-to-width-down/270?cb=20240127120843&path-prefix=ru",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS02Klnaq-rVl0fCF-BsvT46DGFUnJQ846wI6F1MqTv_A&s=10",
         "type": "dimension",
         "dimension": "Dimension C-137"
     },
@@ -16,7 +16,7 @@
     {
         "id": 3,
         "name": "Измерение C-131",
-        "image": "https://static.wikia.nocookie.net/rickandmorty/images/7/79/%D0%98%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BE%D0%B4%D0%BC%D0%B5%D0%BD%D1%8B_001.jpg/revision/latest/scale-to-width-down/270?cb=20190714010733&path-prefix=ru",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99DDO5UsFlc7hW7M6mwKIfPmonTTJIiVuHETVnhpGHQ&s=10",
         "type": "dimension",
         "dimension": "Dimension C-131"
     }

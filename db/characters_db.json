@@ -1,42 +1,51 @@
 [
   {
     "id": 1,
-    "name": "Rick Sanchez",
+    "name": "Рик Санчес",
     "status": "alive",
     "species": "Человек",
-    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEPUsPUanG93ih91NWXXeu-GCwYwIvO08IujNWULVl47J2OFJozjIJqOG&s=10",
     "location": "Земля C-137",
     "episode": "Pilot"
   },
   {
     "id": 2,
-    "name": "Morty Smith",
+    "name": "Морти Смит",
     "status": "alive",
     "species": "Человек",
-    "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/07/morty-looking-down-at-his-phone-in-rick-and-morty.jpg?w=1600&h=900&fit=crop",
     "location": "Земля C-137",
     "episode": "Pilot"
   },
   {
     "id": 3,
-    "name": "Summer Smith",
+    "name": "Саммер Смит",
     "status": "alive",
     "species": "Человек",
-    "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+    "image": "https://cdn.costumewall.com/wp-content/uploads/2017/10/summer-smith.jpg",
     "location": "Земля C-137",
     "episode": "Pilot"
   },
   {
     "id": 4,
-    "name": "Фейковый Рик из Чертаново",
-    "status": "unknown",
+    "name": "Бет Смит",
+    "status": "alive",
     "species": "Человек",
-    "image": "https://meduza.io/image/attachments/images/002/914/125/large/_MYObopkNjxJbS02ekFnmA.jpg",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/nabor_stikerov_rik_i_morti_15_dlja_telegram_109.png",
     "location": "Земля C-137",
-    "episode": "Тест"
+    "episode": "Pilot"
   },
   {
     "id": 5,
+    "name": "Джерри Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://preview.redd.it/is-there-someone-who-actually-like-the-character-of-jerry-v0-g2ryn64o37be1.jpeg?auto=webp&s=820f8b5c458f0175fd4f94e953d0596dc92d95ab",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 6,
     "name": "AI Lab",
     "status": "dead",
     "species": "Инопланетянин",
@@ -45,12 +54,201 @@
     "image": "https://i.redd.it/rick-and-morty-x-ai-made-by-ai-lab-v0-aual73r0uxda1.png?width=1024&format=png&auto=webp&s=09f092b93395a2e3347dae9e1f41084651c93ede"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "AI Lab",
     "status": "dead",
     "species": "Человек",
     "location": "Земля C-137",
     "episode": "Тест AI",
-    "image": "https://imagedelivery.net/F5KOmplEz0rStV2qDKhYag/ff2519d4-434b-4c80-4a9c-a774cea61000/tn"
+    "image": "https://avatars.mds.yandex.net/get-shedevrum/12896721/video_preview_043c86ff008011efa277e2eddbe20c63_3/orig"
+  },
+  {
+    "id": 8,
+    "name": "Рик Санчес",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEPUsPUanG93ih91NWXXeu-GCwYwIvO08IujNWULVl47J2OFJozjIJqOG&s=10",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 9,
+    "name": "Морти Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/07/morty-looking-down-at-his-phone-in-rick-and-morty.jpg?w=1600&h=900&fit=crop",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 10,
+    "name": "Саммер Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://cdn.costumewall.com/wp-content/uploads/2017/10/summer-smith.jpg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 11,
+    "name": "Бет Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/nabor_stikerov_rik_i_morti_15_dlja_telegram_109.png",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 12,
+    "name": "Джерри Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://preview.redd.it/is-there-someone-who-actually-like-the-character-of-jerry-v0-g2ryn64o37be1.jpeg?auto=webp&s=820f8b5c458f0175fd4f94e953d0596dc92d95ab",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 13,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Инопланетянин",
+    "location": "Космическая система \"КУКУЕВО\"",
+    "episode": "Тест эпизод",
+    "image": "https://i.redd.it/rick-and-morty-x-ai-made-by-ai-lab-v0-aual73r0uxda1.png?width=1024&format=png&auto=webp&s=09f092b93395a2e3347dae9e1f41084651c93ede"
+  },
+  {
+    "id": 14,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Человек",
+    "location": "Земля C-137",
+    "episode": "Тест AI",
+    "image": "https://avatars.mds.yandex.net/get-shedevrum/12896721/video_preview_043c86ff008011efa277e2eddbe20c63_3/orig"
+  },
+    {
+    "id": 15,
+    "name": "Рик Санчес",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEPUsPUanG93ih91NWXXeu-GCwYwIvO08IujNWULVl47J2OFJozjIJqOG&s=10",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 16,
+    "name": "Морти Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/07/morty-looking-down-at-his-phone-in-rick-and-morty.jpg?w=1600&h=900&fit=crop",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 17,
+    "name": "Саммер Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://cdn.costumewall.com/wp-content/uploads/2017/10/summer-smith.jpg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 18,
+    "name": "Бет Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/nabor_stikerov_rik_i_morti_15_dlja_telegram_109.png",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 19,
+    "name": "Джерри Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://preview.redd.it/is-there-someone-who-actually-like-the-character-of-jerry-v0-g2ryn64o37be1.jpeg?auto=webp&s=820f8b5c458f0175fd4f94e953d0596dc92d95ab",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 20,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Инопланетянин",
+    "location": "Космическая система \"КУКУЕВО\"",
+    "episode": "Тест эпизод",
+    "image": "https://i.redd.it/rick-and-morty-x-ai-made-by-ai-lab-v0-aual73r0uxda1.png?width=1024&format=png&auto=webp&s=09f092b93395a2e3347dae9e1f41084651c93ede"
+  },
+  {
+    "id": 21,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Человек",
+    "location": "Земля C-137",
+    "episode": "Тест AI",
+    "image": "https://avatars.mds.yandex.net/get-shedevrum/12896721/video_preview_043c86ff008011efa277e2eddbe20c63_3/orig"
+  },
+  {
+    "id": 22,
+    "name": "Рик Санчес",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEPUsPUanG93ih91NWXXeu-GCwYwIvO08IujNWULVl47J2OFJozjIJqOG&s=10",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 23,
+    "name": "Морти Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/07/morty-looking-down-at-his-phone-in-rick-and-morty.jpg?w=1600&h=900&fit=crop",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 24,
+    "name": "Саммер Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://cdn.costumewall.com/wp-content/uploads/2017/10/summer-smith.jpg",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 25,
+    "name": "Бет Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/nabor_stikerov_rik_i_morti_15_dlja_telegram_109.png",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 26,
+    "name": "Джерри Смит",
+    "status": "alive",
+    "species": "Человек",
+    "image": "https://preview.redd.it/is-there-someone-who-actually-like-the-character-of-jerry-v0-g2ryn64o37be1.jpeg?auto=webp&s=820f8b5c458f0175fd4f94e953d0596dc92d95ab",
+    "location": "Земля C-137",
+    "episode": "Pilot"
+  },
+  {
+    "id": 27,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Инопланетянин",
+    "location": "Космическая система \"КУКУЕВО\"",
+    "episode": "Тест эпизод",
+    "image": "https://i.redd.it/rick-and-morty-x-ai-made-by-ai-lab-v0-aual73r0uxda1.png?width=1024&format=png&auto=webp&s=09f092b93395a2e3347dae9e1f41084651c93ede"
+  },
+  {
+    "id": 28,
+    "name": "AI Lab",
+    "status": "dead",
+    "species": "Человек",
+    "location": "Земля C-137",
+    "episode": "Тест AI",
+    "image": "https://avatars.mds.yandex.net/get-shedevrum/12896721/video_preview_043c86ff008011efa277e2eddbe20c63_3/orig"
   }
 ]
